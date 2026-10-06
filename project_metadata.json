@@ -1,0 +1,11 @@
+{
+  "project": "Healthcare Data Governance and Cleaning",
+  "platform": "EdVyro",
+  "milestone": 2,
+  "status": "submission-ready template pending official source CSV replacement",
+  "input_rows": 35,
+  "cleaned_rows": 34,
+  "duplicate_patient_ids": 1,
+  "exceptions_logged": 8,
+  "clinical_values_invented": false
+}

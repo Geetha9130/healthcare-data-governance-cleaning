@@ -1,0 +1,9 @@
+source_row,patient_id,exception_type,observation,cleaning_action
+15,P014,invalid_age_range,Age 150 outside validation range 0–120.,Set to NA; no replacement invented.
+16,P015,invalid_sex_category,Unexpected sex category 'Other'.,Set to NA; no replacement invented.
+17,P016,missing_age,Age is missing.,Retained as NA; no value imputed.
+32,P030,duplicate_patient_id,Duplicate patient ID; subsequent duplicate row excluded from cleaned dataset.,No clinical value invented.
+33,P031,invalid_record_date,Record date 'not-a-date' is not a valid YYYY-MM-DD date.,Set to NA; no date invented.
+34,P032,invalid_blood_pressure_format,Blood pressure 'invalid' does not match systolic/diastolic format.,Set to NA; no clinical value invented.
+35,P033,missing_diagnosis,Diagnosis is missing.,Retained as NA; no clinical diagnosis inferred.
+36,P034,invalid_record_date,Record date '' is not a valid YYYY-MM-DD date.,Set to NA; no date invented.
